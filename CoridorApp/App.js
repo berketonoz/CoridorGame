@@ -27,7 +27,7 @@ import {
 } from 'react-native/Libraries/NewAppScreen';
 
 import HomePage from "./Components/HomePage";
-
+import Map from './Components/Maps/Map';
 // const Section = ({children, title}): Node => {
 //   const isDarkMode = useColorScheme() === 'dark';
 //   return (
@@ -65,7 +65,8 @@ const App: () => Node = () => {
   return (
     <>
       <View style={styles.container} >
-        <HomePage />
+        {/* <HomePage /> */}
+        <Map size="4" />
       </View>
       {/* <Text style={
         [
@@ -80,7 +81,7 @@ const styles = StyleSheet.create({
   container: {
     height: '100%',
     width: '100%',
-    backgroundColor: '#bfdfaf',
+    backgroundColor: '#878f99',
   },
   highlight: {
     fontWeight: '700',

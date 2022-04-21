@@ -1,2 +1,2 @@
-# CoridorGame
+#CoridorGame
 Quoridor board game

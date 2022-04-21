@@ -60,7 +60,7 @@ const styles = StyleSheet.create({
     separator: {
         margin: '2%',
         borderBottomColor: 'black',
-        borderBottomWidth: 1,
+        borderBottomWidth: 1.4,
     },
     button: {
         alignItems: 'center',
@@ -68,7 +68,8 @@ const styles = StyleSheet.create({
         marginTop: '5%',
         marginLeft:'30%',
         marginRight:'30%',
+        marginBottom: '5%',
         borderRadius: 10,
-        backgroundColor: '#af0a00',
+        backgroundColor: '#f0c33c',
     },
 });
